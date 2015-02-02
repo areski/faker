@@ -9,7 +9,7 @@
     )
 
     func main() {
-      fake := faker.New("en")
+      fake, _ := faker.New("en")
       println(fake.Name())  //> "Adriana Crona"
       println(fake.Email()) //> charity.brown@fritschbotsford.biz
     }
